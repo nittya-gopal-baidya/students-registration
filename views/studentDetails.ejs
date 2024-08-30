@@ -1,0 +1,22 @@
+<%- include('partials/header') %>
+
+  <div class="jumbotron text-center" >
+    <div class="container" style="padding: 50px;">
+      
+      <h1 class="display-3">Hey , Welcome Back <%= data.name %></h1>
+      <ul>
+        
+        
+        <strong>Email:</strong> <%= data.email %><br>
+        <strong>Course:</strong> <%= data.course %><br>
+        <strong>Department:</strong> <%= data.dept_name %><br>
+        <strong>University/College:</strong> <%= data.univ_col_name %>
+
+      </ul>
+      <p class="secret-text"></p>
+      
+      <a class="btn btn-light btn-lg" style="margin-left: 35%; width: 100px;text-decoration: none ;" href="/logout" role="button">Log Out</a>
+    </div>
+  </div>
+
+  <%- include('partials/footer') %>

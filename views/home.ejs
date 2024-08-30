@@ -1,0 +1,45 @@
+<%- include('partials/header') %>
+
+<!-- 
+<div class="jumbotron centered">
+  <div class="container">
+    <i class="fas fa-key fa-6x"></i>
+    <h1 class="display-3" style="font-family: 'Times New Roman', Times, serif;">REGISTER YOURSELF</h1>
+    <hr>
+    <a class="btn btn-light btn-lg" href="/register" role="button">Register</a>
+    <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a>
+
+  </div>
+</div> -->
+<div class="container" style=" display: flex; justify-content: center;">
+  <div class="outer"
+      style="background-color: rgb(255, 255, 255); width: 25vw; height: 50vh; border-radius: 20px;padding-top: 5vh;">
+      <div style="margin-top: 10vh;">
+        <div class="profile" style="display: flex; justify-content: center; ">
+            <!-- <img src="..\public\images\profile.png" style="height: 200px; width: 200px;" alt="profile-image"> -->
+            <i class="fa fa-user" style="font-size:90px;color:rgb(10, 10, 10)"></i>
+           
+        </div>
+        <div class="header" style="display: flex; justify-content: center;">
+            <h1 class="display-3"
+                style=" display: flex; justify-content: center; font-family:sans-serif">
+                </h1>
+        </div>
+      </div>
+      <div>
+          <div class="registerlogin"
+              style="display: flex; justify-content:center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ">
+              <div class="register">
+                  <a class="btn btn-light btn-lg " style="color:white; text-decoration: none; font-weight: bold; "
+                      href="/register" role="button">Register</a>
+              </div>
+              
+          </div>
+          <div style="margin-left: 25%;">
+              <p>Already registered ? <a style="font-weight: bold; text-decoration: none;" href="/login"> click</a> here</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
